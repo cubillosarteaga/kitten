@@ -1,0 +1,33 @@
+@media (min-width: 768px) and (max-width: 991px) {
+	[class*="col-"] { /*todas esas col* *significa para todo, para todas las clases quese llamen col*/
+		width: 100%;
+  }
+
+  .large{
+	background-image: url(../images/sunny-day.jpg);
+	width: 100%;
+}
+
+.kitt{
+	content: url(../images/kitten-medium.png);
+	margin-left: 25%;
+    margin-top: 40%;
+ }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+  [class*="col-"] { /*todas esas col* *significa para todo, para todas las clases quese llamen col*/
+    width: 100%;
+}
+
+.large{
+	background-image: url(../images/night.jpg);
+	width: 100%;
+}
+
+.kitt{
+	content: url(../images/kitten-small.png);
+	margin-left: 25%;
+    margin-top: 50%;
+  }
+ }

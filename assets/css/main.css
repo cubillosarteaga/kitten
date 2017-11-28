@@ -1,0 +1,14 @@
+body{
+	margin: 0%;
+}
+.large{
+	background-image: url(../images/dawn.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 41.3em;
+}
+
+.kitt{
+	margin-left: 25%;
+    margin-top: 25%;
+}
